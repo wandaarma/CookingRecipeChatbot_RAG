@@ -126,7 +126,7 @@ def load_data():
     with open("recipe_texts.pkl", "rb") as f:
         corpus = pickle.load(f)
     index = faiss.read_index("recipe_faiss.index")
-    model = SentenceTransformer("models/all-MiniLM-L6-v2")
+    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2") 
     return df, corpus, index, model
 
 df, corpus, index, model = load_data()
