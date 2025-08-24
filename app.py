@@ -120,23 +120,16 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
 @st.cache_resource
 def load_data():
-    gdown.download("https://drive.google.com/uc?id=1KSwxoIoD1WzEwTI97SfUyJT0o8-Htd34", "cleaned_recipes.pkl", quiet=False)
-    gdown.download("https://drive.google.com/uc?id=1A73z7jBdr424A6zeC84z7m2J8siNbHjl", "recipe_texts.pkl", quiet=False)
-    gdown.download("https://drive.google.com/uc?id=1vWiFvPYLuo5qQunWWEfQILwN-92eWNbu", "recipe_faiss.index", quiet=False)
-
     df = pd.read_pickle("cleaned_recipes.pkl")
     with open("recipe_texts.pkl", "rb") as f:
         corpus = pickle.load(f)
     index = faiss.read_index("recipe_faiss.index")
-
-    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+    model = SentenceTransformer("models/all-MiniLM-L6-v2")
     return df, corpus, index, model
+
 df, corpus, index, model = load_data()
-
-
 
 def search_recipe_by_title(query, top_k=3):
     query_vec = model.encode([query])
