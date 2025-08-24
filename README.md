@@ -145,6 +145,14 @@ You can try the live application, deployed via Streamlit, using the link below.
 
 ---
 
+## 📚 Dataset
+
+This project uses the **RecipeNLG Dataset**, a large-scale dataset containing over 2 million cooking recipes with titles, ingredients, and instructions.  
+It is available on Kaggle:  
+🔗 [RecipeNLG Dataset on Kaggle](https://www.kaggle.com/datasets/paultimothymooney/recipenlg)
+
+---
+
 ## 📊 End-to-End Data Pipeline Flowchart
 
 ```mermaid
@@ -183,7 +191,7 @@ To run this project on your local machine, follow these steps:
 
 1.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/wandaarma/CookingRecipeChatbot_RAG.git](https://github.com/wandaarma/CookingRecipeChatbot_RAG.git)
+    git clone https://github.com/wandaarma/CookingRecipeChatbot_RAG.git
     cd CookingRecipeChatbot
     ```
 
