@@ -13,6 +13,117 @@ You can try the live application, deployed via Streamlit, using the link below.
 
 !!Please use English command because of limited dataset and open using PC/Laptop is recommended!!
 
+### 📌 Example Conversation Results
+
+<details>
+<summary>Click to expand full conversation 📜</summary>
+
+<div style="max-height: 360px; overflow: auto; border: 1px solid #0b1220;; border-radius: 10px; padding: 12px; background: #e5e7eb;">
+<pre style="margin:0; white-space: pre-wrap; word-wrap: break-word; color: #0b1220; font-size: 14px; line-height: 1.45;">
+🤖 Bot: Hello! 👋 What would you like to do today? You can choose an option below or type your question directly.
+🙋 User: Check Ingredients
+
+🤖 Bot: Sure! What is the name of the recipe you want to check?
+🙋 User: fried rice
+
+🤖 Bot: Here are the ingredients for **Mexican Fried Rice**:
+- 1 c. raw rice 1/4 c. oil 1 Tbsp. chili powder 2 c. water 1 tsp. salt
+🤖 Bot: Do you want to see another recipe? (yes/no)
+
+🙋 User: yes
+
+🤖 Bot: Here are the ingredients for **Chinese Fried Rice**:
+- chopped carrots
+- boiled until almost tender rice
+- boiled 1 onion
+- chopped 2 to 3 slices bacon
+- chopped 1 spoon dark soya sauce some small shrimp 2 dried mushrooms
+- slices and/or whole) green peas
+🤖 Bot: Do you want to see another recipe? (yes/no)
+
+🙋 User: no
+🤖 Bot: Okay! You can type another recipe name anytime. 🍳
+
+---
+
+🙋 User: Check Cooking Steps
+🤖 Bot: Sure! What is the name of the recipe you want to check?
+
+🙋 User: meatball
+🤖 Bot: Here are the cooking steps for **Meatballs**:
+1. Mix all ingredients thoroughly
+2. Broil 7 to 10 minutes on each side
+3. Eat as is or use with your favorite sauces
+4. Makes 32 (1-inch) balls or 16 (2-inch) balls.
+🤖 Bot: Do you want to see another recipe? (yes/no)
+
+🙋 User: yes
+🤖 Bot: Here are the cooking steps for **Cocktail Meatballs**:
+1. Mix first 8 ingredients and shape into balls
+2. Brown in skillet; remove fat
+3. Heat chili sauce and jelly, stirring constantly until jelly is melted
+4. Add meatballs; stir carefully until coated
+5. Simmer uncovered 30 minutes
+6. Serve hot
+7. (We use a crock-pot.)
+🤖 Bot: Do you want to see another recipe? (yes/no)
+
+🙋 User: no
+🤖 Bot: Okay! You can type another recipe name anytime. 🍳
+
+---
+
+🙋 User: thank you
+🤖 Bot: You're welcome! Let me know if you need anything else. 🍀
+
+---
+
+🙋 User: i want to make salad
+🤖 Bot: To make **Raw Vegetable Salad**, you have to prepare these ingredients:
+- 1 head cauliflower
+- cut up 1 bunch broccoli
+- cut up 1 pkg. frozen peas onion
+- chopped 1 c. mayonnaise 1 c. sour cream 1 tsp. vinegar 1 tsp. Worcestershire sauce salt and pepper to taste
+
+🤖 Bot: After preparing the ingredients, you can follow these cooking steps:
+1. Combine mayonnaise, sour cream, vinegar and Worcestershire sauce until mixed
+2. Toss with vegetables, salt and pepper
+3. Chill well
+4. Serve.
+🤖 Bot: Do you want to see another recipe? (yes/no)
+
+🙋 User: no
+🤖 Bot: Okay! You can type another recipe name anytime. 🍳
+
+---
+
+🙋 User: give me pizza ingredients
+🤖 Bot: Here are the ingredients for **Pizza Hot Dish**:
+- 1 lb. hamburger or sausage or half and half 1 lb. cooked spiral noodles (half cooked) 4 oz. pepperoni small can drained mushrooms 1/2 green pepper
+- chopped 1 onion
+- chopped 1/2 c. sliced green olives 1/2 c. sliced black olives salt and pepper to taste 1 can pizza sauce 1/2 to 1 can Hunts 4 cheese spaghetti sauce 16 oz. shredded Mozzarella cheese
+🤖 Bot: Do you want to see another recipe? (yes/no)
+
+🙋 User: yes
+🤖 Bot: Here are the ingredients for **Zesty Pizza Sauce**:
+- 1 cup Onion
+- Chopped 2 cloves Garlic
+- Minced 1/4 cups White Wine 4 Tablespoons Tomato Paste 4 teaspoons Dried Oregano 2 teaspoons Crushed Red Pepper 1/2 teaspoons Pepper 2 cans (28 Oz. Each) Crushed Tomatoes
+- Undrained 1 teaspoon Sugar 2 teaspoons Balsamic Vinegar (optional)
+🤖 Bot: Do you want to see another recipe? (yes/no)
+
+🙋 User: no
+🤖 Bot: Okay! You can type another recipe name anytime. 🍳
+
+---
+
+🙋 User: hello
+🤖 Bot: Hi there! 😊 How can I help you with your cooking today?
+</pre>
+</div>
+
+</details>
+
 ---
 
 ## 🚀 Key Features
