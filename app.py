@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import faiss
 import pickle
-import gdown
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from streamlit.components.v1 import html
